@@ -1,0 +1,258 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 1803px;
+}
+
+.container {
+        width: 1440px;
+        height: 800px;
+        padding: 0 15px;
+        margin: 0 auto;
+}
+#container1 {
+    background-color: #FFF8F0;
+}
+#container2 {
+    background-color: #FFE8E8;
+}
+#container3 {
+    background-color: #FFEDD9;
+}
+#container4 {
+    background-color: #F1FFD2;
+}
+
+
+.text {
+    font-family: 'Anton', sans-serif;
+    color: #363537;
+}
+.chinesetext {
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #363537;
+}
+
+#hometag {
+    border: 4px solid #363537;
+    background-color: #363537;
+    border-radius: 30px;
+    color:   white;
+    padding: 5px 20px;
+    text-align: center;
+    font-family: Anton;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 1px 1px;
+    cursor: pointer;
+    position: fixed;
+    left: 3%;
+    top: 7%
+}
+
+#infobutton {
+    position: fixed;
+    width: 60px;
+left: 1333px;
+top: 60px;
+}
+
+#clicktag {
+    position:absolute;
+    left: 560px;
+    top: 110px;
+
+    font-size: 25px;;
+    
+
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(-8px);
+        color: #363537;
+      }
+    50% {
+        transform: translateY(9px);
+    }
+    100% {
+        transform: translateY(-9px);
+        color: #7a7a7a;
+      }
+}
+
+#homepagetitletext {
+    position: absolute;
+    width: 691px;
+    height: 112px;
+    left: 420px;
+    top: -10px;
+
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 106px;
+}
+
+#homepagebottomtext {
+position: absolute;
+left: 42%;
+top: 700px;
+font-size: 50px;
+}
+
+#red {
+    border-radius: 50%;
+    position: absolute;
+    width: 415px;
+    height: 415px;
+    left: 150px;
+    top: 180px;
+    background: linear-gradient(179.93deg, #EF2D56 33.11%, rgba(255, 136, 17, 0) 99.94%);
+}
+
+#red:hover {
+    background-color: #EF2D56;
+}
+
+#yellow {
+    border-radius: 50%;
+    position: absolute;
+    width: 415px;
+    height: 415px;
+    left: 509px;
+    top: 180px;
+    background: linear-gradient(179.93deg, #FF8811 33.11%, rgba(255, 136, 17, 0) 99.94%);
+}
+
+#yellow:hover {
+    background-color: #FF8811;
+}
+
+#green {
+    border-radius: 50%;
+    position: absolute;
+    width: 415px;
+    height: 415px;
+    left: 875px;
+    top: 180px;
+    background: linear-gradient(179.93deg, #2FBF71 33.11%, rgba(255, 136, 17, 0) 99.94%);
+}
+
+#green:hover {
+    background-color: #2FBF71;
+}
+
+#img1980s {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    width: 50%;
+}
+
+#img1980s:hover {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+#img1990s {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    width: 50%;
+}
+
+#img1990s:hover {
+    animation: rotation 5s infinite linear;
+}
+
+#img2000s {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    width: 50%;
+}
+
+#img2000s:hover {
+    animation: rotation 5s infinite linear;
+}
+
+.yearbutton {
+  border: 4px solid #363537;
+  border-radius: 30px;
+  color:  #363537;
+  padding: 5px 40px;
+  text-align: center;
+  font-family: Anton;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 1px 1px;
+  cursor: pointer;
+  position: absolute;
+    left: 30%;
+    top: 90%;
+}
+
+#button-1980s {
+    background-color: #EF2D56;
+}
+#button-1990s {
+    background-color: #FF8811;
+}
+#button-2000s {
+    background-color: #2FBF71;
+}
+
+.introalert {
+    
+    color:#363537;
+    padding: 15px 10px;
+    font-family: anton;
+    font-size: 13px;
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 850px;
+    top: 640px;
+
+    background: linear-gradient(180deg, #C4ACF7 0%, rgba(196, 172, 247, 0.927083) 25%, rgba(196, 172, 247, 0) 100%);
+    border-radius: 15px;
+  }
+
+  .closebutton {
+    margin: 3px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 30px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebutton:hover {
+    color: black;
+  }
+  

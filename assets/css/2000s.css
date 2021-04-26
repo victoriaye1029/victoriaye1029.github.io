@@ -1,0 +1,129 @@
+#yeartitletext3 {
+    position: absolute;
+    width: 180px;
+    height: 62px;
+    left: 230px;
+    top: 2530px;
+    
+    font-family: Anton;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    
+    color: #363537;
+    }
+#songtitletext3 {
+        position: absolute;
+        width: 691px;
+        height: 112px;
+        left: 566px;
+        top: 2470px;
+    
+        font-weight: normal;
+        font-size: 65px;
+        line-height: 106px;
+    }
+    #songtitletext3chinese {
+        position: absolute;
+        left: 1100px;
+        top: 2540px;
+    }
+
+    #songtitletext3chinesespecial1 {
+        position: absolute;
+        left: 1150px;
+        top: 2550px;
+    }
+    #songtitletext3chinesespecial2 {
+        position: absolute;
+        left: 1150px;
+        top: 2580px;
+    }
+    
+    .section-text3 {
+        position: absolute;
+        width: 709px;
+        height: 523px;
+        left: 566px;
+        top: 2650px;
+        
+        font-family: Anton;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 35px;
+        
+        color: #363537;
+        }
+#green2 {
+    border-radius: 50%;
+    position: absolute;
+    width: 658px;
+    height: 658px;
+    left: 430px;
+    top: 2500px;
+    background: linear-gradient(179.93deg, #2FBF71 33.11%, rgba(255, 255, 255, 0) 99.94%);
+}
+.albumimg3 {
+    border-radius: 50%;
+    position: absolute;
+    left: 195px;
+    top: 2680px;
+    width: 300px;
+    animation: rotation 10s infinite linear;
+}
+
+
+#prevbutton3 {
+    cursor: pointer;
+    position: absolute;
+    width: 31px;
+    height: 62px;
+    left: 70px;
+    top: 2800px;
+    }
+        
+#nextbutton3 {
+    cursor: pointer;
+    position: absolute;
+    width: 32px;
+    height: 64px;
+    left: 1369px;
+    top: 2800px;
+    }
+
+    #prevbutton3:hover, #nextbutton3:hover {
+        background-color:#1b6b3f;
+        border-radius: 12px;
+        padding: 8px;
+    }
+
+    #button3 {
+        position: absolute;
+        left: 194px;
+        top: 3025px;
+        border: none;
+            border-radius: 30px;
+            color:  #363537;
+            padding: 5px 30px;
+            text-align: center;
+            font-family: Anton;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            margin: 1px 1px;
+            cursor: pointer;
+            background: linear-gradient(180deg, #2FBF71 0%, #FFF8F0 100%);
+            animation: bounce 2s infinite;
+        }
+        #checkoutsongs3 {
+            position: absolute;
+            left: 566px;
+            top: 3000px;
+        
+            width: 460px;
+        }
+        #checkoutsongs3:hover, .albumimg3:hover {
+            box-shadow: 50px -16px #2fbfa7;
+        }

@@ -1,0 +1,160 @@
+.section-text1 {
+position: absolute;
+width: 709px;
+height: 523px;
+left: 566px;
+top: 1050px;
+
+font-family: Anton;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 35px;
+
+color: #363537;
+}
+
+#red2 {
+    border-radius: 50%;
+    position: absolute;
+    width: 658px;
+    height: 658px;
+    left: 430px;
+    top: 900px;
+    background: linear-gradient(179.93deg, #EF2D56 33.11%, rgba(255, 136, 17, 0) 99.94%);
+}
+
+
+.albumimg1 {
+    border-radius: 50%;
+    position: absolute;
+    width: 300px;
+    left: 195px;
+    top: 1080px;
+    animation: rotation 10s infinite linear;
+}
+
+
+.btn-1980s {
+    
+width: 200px;
+height: 38px;
+
+background: linear-gradient(180deg, #EF2D56 0%, rgba(239, 45, 86, 0) 100%);
+border-radius: 12px;
+
+position:absolute;
+left: 250px;
+top: 1450px;
+
+}
+#button-text {
+    text-align: center;
+    font-family: Anton;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    
+    color: #363537;
+}
+
+#songtitletext1 {
+    position: absolute;
+    width: 691px;
+    height: 112px;
+    left: 566px;
+    top: 870px;
+
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 106px;
+}
+
+#songtitletext1chinese {
+    position: absolute;
+    left: 1100px;
+    top: 940px;
+}
+
+
+
+
+#yeartitletext1 {
+    position: absolute;
+    width: 180px;
+    height: 62px;
+    left: 230px;
+    top: 930px;
+    
+    font-family: Anton;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    
+    color: #363537;
+    }
+
+#prevbutton1 {
+cursor: pointer;
+position: absolute;
+width: 31px;
+height: 62px;
+left: 70px;
+top: 1200px;
+}
+    
+#nextbutton1 {
+cursor: pointer;
+position: absolute;
+width: 32px;
+height: 64px;
+left: 1369px;
+top: 1200px;
+}
+
+#prevbutton1:hover, #nextbutton1:hover {
+    background-color:#a33c52;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+@keyframes bounce {
+    0%  {transform: translateY(0); }
+    50% {transform: translateY(10px);}
+    100% {transform: translateY(0);}
+}
+
+#button1 {
+position: absolute;
+left: 194px;
+top: 1425px;
+border: none;
+    border-radius: 30px;
+    color:  #363537;
+    padding: 5px 30px;
+    text-align: center;
+    font-family: Anton;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 1px 1px;
+    cursor: pointer;
+    background: linear-gradient(180deg, #EF2D56 0%, rgba(239, 45, 86, 0) 100%);;
+    animation: bounce 2s infinite;
+}
+
+#checkoutsongs1 {
+    position: absolute;
+    left: 566px;
+    top: 1425px;
+
+    width: 460px;
+}
+#checkoutsongs1:hover, .albumimg1:hover {
+    box-shadow: 50px -16px #ff5a3c;
+}
+
+
+    
